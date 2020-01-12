@@ -92,3 +92,22 @@ section{
     color: green;
     
 }
+
+/* Contact Me */
+.btn{
+    margin-right: 2%;
+}
+
+.contact-detail{
+    color: rgb(156, 154, 154);
+    padding: 0% 3% 3% 0%;
+}
+
+#contact-header{
+    color: white;
+    padding-bottom: 5%;
+}
+.contact-icons{
+    color: white;
+    padding-right: 8px;
+}
