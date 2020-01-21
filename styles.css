@@ -1,23 +1,21 @@
 /* Selectors */
-a{
+/* a{
     text-decoration: none;
-}
-
-
+} */
 
 body{
-    background: #beebe9;
-    font-family: "Crete Round","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: white;
+    font-family: "Bree Serif","Crete Round","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: center;
-    
+    margin: 0;
+    padding: 0;
 }
 
 
 
 footer{
-    background: #1b262c;
+    background-color: #1b262c;
     color: #868e96;
-    display: inline-flex;
     padding: 10px 20px;
     text-align: center;
     font-size: 0.8rem;
@@ -29,8 +27,8 @@ header{
 }
 
 section{
-   background-color: #3d4c55;
-   padding: 2% 10%;
+   padding: 5% 10%;
+   text-align: center;
 }
 
 
@@ -63,28 +61,31 @@ section{
 
 #job-subtitle{
     color: grey;
+    padding-bottom: 2rem;
 }
 
 #job-title{
     font-weight: bolder;
+    line-height: 2;
 }
 
-  #profile{
-    font-family: 'Bree Serif','Crete Round', serif;
+  #profile-section{
     background-color: #beebe9;
+    font-family: 'Bree Serif','Crete Round', serif;
     line-height: 1.5;
 }
 
-.profile-text{
-    padding: 4%;
+.profile-decoration{
    text-align: center;
-   vertical-align: middle;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding: 8%;
 }
 
   .rouned-image{
     vertical-align: middle;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
 }
 
@@ -93,14 +94,41 @@ section{
     
 }
 
+/* Portfolio-section */
+
+#portfolio-section{
+    background-color: white;
+    text-align: center;
+}
+
+#portfolio-subtitle{
+    margin-bottom: 5%;
+}
+
+#portfolio-section img{
+   width: 200px;
+   height: 200px;
+   margin-left: auto ;
+   margin-right: auto ;
+}
+
+.card{
+    margin: 0 0 5% 0;
+    padding: 5%;
+}
+
 /* Contact Me */
 .btn{
     margin-right: 2%;
 }
 
+#contact-section{
+    background-color: #3d4c55;
+    text-align: left;
+}
+
 .contact-detail{
     color: rgb(156, 154, 154);
-    padding: 0% 3% 3% 0%;
 }
 
 #contact-header{
@@ -108,6 +136,43 @@ section{
     padding-bottom: 5%;
 }
 .contact-icons{
-    color: white;
+    color: rgb(218, 216, 216);
     padding-right: 8px;
+}
+
+
+/* fixed button */
+#fixed-button{
+    bottom: 2%; 
+    right: 2%;
+    position: fixed; 
+    padding: 8px;
+}
+
+
+/* Testimonial section */
+
+#testimonial-section{
+    background-color: #beebe9;
+}
+
+#testimonial{
+ margin: 5% auto 5% auto;
+ max-width: 75%;
+
+}
+
+#testimonial img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators {
+    bottom: -50px;
 }

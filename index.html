@@ -3,7 +3,7 @@
 
 <head>
     <title>Samip Shah</title>
-    <link rel="stylesheet" href="styles.css">
+    
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,6 +21,8 @@
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Crete+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 
 <body>
@@ -35,28 +37,28 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a class="nav-link" href="#profile">HOME <span
-                            class="sr-only">(current)</span></a>
+                <li class="nav-item active"><a class="nav-link" href="#profile-section">HOME |</a>
                 </li>
-                <li class="nav-item"></li><a class="nav-link" href="#">SERVICES</a> </li>
-                <li class="nav-item"><a class="nav-link" href="#">PORTFOLIO</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                <li class="nav-item"></li><a class="nav-link" href="#">SERVICES |</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio-section">PORTFOLIO |</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonial-section">TESTIMONIAL |</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact-section">CONTACT</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Profile Section -->
-    <section id="profile">
+    <section id="profile-section">
         <div class="row">
-            <div class="col-lg-6 profile-text">
+            <div class="col-lg-6 profile-decoration">
                 <h4 id="welcome"> <span> Welcome, </span> I am Samip Shah.</h4>
                 <h1 id='job-title'>SOFTWARE DEVELOPER.</h1>
                 <p id='job-subtitle'>iOS Application Developer & Beginner Web Developer Who Loves Technology.</p>
-                <button type="button" class="btn btn-outline-success btn-lg">Get CV</button>
-
+                <a href="https://drive.google.com/open?id=1Mwg7FErZd4bQFOlJo0DcmWFqOMmaHLR_"   target="_blank">
+                    <button type="button" class="btn btn-outline-success btn-lg"> Get CV</button>
+                </a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 profile-decoration">
                 <div class="avatar">
                     <img src="images/sam1.jpeg" alt="Samip's Photo" width="100%">
                 </div>
@@ -67,7 +69,8 @@
                             class="fab fa-linkedin fa-2x"></i></a>
                     <a class="follow-link" href="https://www.facebook.com/Samiiiip"><i
                             class="fab fa-facebook-square fa-2x"></i></a>
-                    <a class="follow-link" href="https://github.com/samip77"><i class="fab fa-github-square fa-2x"></i></a>
+                    <a class="follow-link" href="https://github.com/samip77"><i
+                            class="fab fa-github-square fa-2x"></i></a>
 
 
                 </div>
@@ -76,9 +79,92 @@
 
         </div>
 
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio-section">
+        <h1> My Works</h1>
+        <h5 id="portfolio-subtitle">Here are my few projects.</h5>
+        
+        <div class="row">
+            <div class=" col-lg-4 col-md-6 card">
+                <img src="/images/safe-towing.png" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title">Safe Towing</h5>
+                    <p class="card-text">Native iOS app to check the safe ratings for combination of vehicle and trailer in Australia.</p>
+                    <a href="https://testflight.apple.com/join/BWZs
+                    z4bE" target="_blank"><p class="card-text"><small class="text-muted">See More</small></p></a>
+                    
+                </div>
+            </div>
+
+            <div class=" col-lg-4 col-md-6 card">
+                <img src="/images/real-estate-nepal.png" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title">Real Estate Nepal</h5>
+                    <p class="card-text">Native iOS app to get all Nepal's Real Estates Portal Website within one app.</p>
+                    <a href="https://apps.apple.com/ae/app/real-estate-nepal/id1177378946" target="_blank"><p class="card-text"><small class="text-muted">See More</small></p></a>
+                    
+                </div>
+            </div>
+
+            <div class=" col-lg-4 col-md-6 card">
+                <img src="/images/jobs-in-nepal.png" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title">Jobs In Nepal</h5>
+                    <p class="card-text">Native iOS app to setup Job Category and get notified when Job Posted within your selected category.</p>
+                    <a href="https://apps.apple.com/us/app/jobs-in-nepal/id1162579926" target="_blank"><p class="card-text"><small class="text-muted">See More</small></p></a>
+                    
+                </div>
+            </div>
+        </div>
+        <h5>Want to see more? <a href="mailto:samipsagar@gmail.com">email me</a> </h5>
 
     </section>
 
+    <section id="testimonial-section">
+        <h1>Testimonials</h1>
+
+        <div id="testimonial">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item  active">
+                        <img  class="d-block w-100 " src="https://media-exp1.licdn.com/dms/image/C4E03AQFgdnhAEw2_0Q/profile-displayphoto-shrink_200_200/0?e=1585180800&v=beta&t=eCPJxl-Mf0yw22-zw7P5oxsDI9oKc2Q5RCHym_Qis_c" alt="profile image">
+                         <h5>Vikas Lamichane</h5>
+                         <p>CTO at <a href="http://esignature.com.np/">Esignature Pvt.Ltd, Nepal</a> </p>
+                         <p>Samip is very hardworking and extremely talented individual and he could perform all of assigned tasks effectively. He is good at Mobile development and also has a lot of deep technical background. Besides, in my opinion, he is a motivated, devoted, creative, professional, hard-working, and innovative person. He contributed much to our organizational goals and targets and his performance was proven to be among the most effective in our organization.</p>
+                    </div>
+        
+                    <div class="carousel-item ">
+                        <img  class="d-block w-100 " src="https://media-exp1.licdn.com/dms/image/C5103AQEpLgdmSSkddw/profile-displayphoto-shrink_200_200/0?e=1585180800&v=beta&t=Se7uiFIFz8PsnxNTlYODZlEaNF7P-08jekmcO-tk4Tg" alt="profile image">
+                        <h5>Dip kasyap</h5>
+                        <p>iOS developer at <a href="https://mport.com/"> mPort, Austraia</a></p>
+                        <p>I mentored him while I was working at E-signature. I found him a very quick learner, friendly, professional and dedicated to the task. He is a problem solver and an easy fit for any team he is assigned to and an influential member.
+                            Personal, I have worked with him on several projects on which his contribution was significant to the success of projects</p>
+                    </div>
+    
+                </div>                
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+            
+    
+
+        </div>
+
+        
+    </section>
 
     <!-- Contact Section -->
     <section id="contact-section">
@@ -91,7 +177,7 @@
             </div>
 
             <div class="contact-form col-lg-6">
-                <form>
+                <form action="mailto:samipsagar@gmail.com" method="post" enctype="text/plain">
                     <div class="form-group">
                         <input type="text" class="form-control" id="input-name" placeholder="Enter Name">
                     </div>
@@ -106,14 +192,16 @@
                         <textarea class="form-control" aria-label="textarea" placeholder="Message"></textarea>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-success btn-lg">Submit</button>
-                        <button class="btn btn-danger btn-lg">Clear</button>
+                        <button type="submit" class="btn btn-success ">Submit</button>
+                        <button class="btn btn-danger ">Clear</button>
                     </div>
                 </form>
             </div>
         </div>
 
     </section>
+
+
 
 
 
@@ -128,6 +216,11 @@
         <p>©2020 Samip Shah</p>
     </footer>
 
+    <div id="fixed-button" class="fixed-action-btn">
+        <a href="#profile-section">
+            <i class="fas fa-arrow-circle-up fa-2x"></i>
+        </a>
+    </div>
 </body>
 
 </html>
