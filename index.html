@@ -314,7 +314,7 @@
             </div>
 
             <div class="contact-form col-lg-6">
-                <form action="mailto:samipsagar@gmail.com" method="post" enctype="text/plain">
+                <form id="contact-form" action="mailto:samipsagar@gmail.com" method="post" enctype="text/plain">
                     <div class="form-group">
                         <input type="text" class="form-control" id="input-name" placeholder="Enter Name">
                     </div>
@@ -330,11 +330,17 @@
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-success ">Submit</button>
-                        <button class="btn btn-danger ">Clear</button>
+                        <button  type="button" class="btn btn-danger" onclick="resetContactForm()">Clear</button>
                     </div>
                 </form>
             </div>
         </div>
+
+        <script>
+            function resetContactForm() {
+              document.getElementById("contact-form").reset();
+            }
+            </script>
 
     </section>
 
